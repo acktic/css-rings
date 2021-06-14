@@ -35,8 +35,8 @@
   position: absolute;
   border-radius: 50%;
   border:2px solid transparent;
-  border-bottom-color: rgb(150, 162, 182)
-  animation: circle-inner 4s infinite linear ;
+  border-bottom-color: #A0A8EC;
+  animation: circle-inner 4s infinite linear;
 }
 .double-circle::after {
     content: '';
@@ -44,8 +44,8 @@
     border-radius: 50%;
     filter: contrast(1.75);
     border: 2px solid transparent;
-    border-bottom-color: rgb(150, 162, 182);
-    animation: circle-outer 3s infinite linear ;
+    border-bottom-color: #A0A8EC;
+    animation: circle-outer 3s infinite linear;
 }
 
 .double-circle::before{
