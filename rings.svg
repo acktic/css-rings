@@ -26,15 +26,15 @@
 
 .loader.double-circle {
     position: relative;
-    width: var(20, 100px);
-    height: var(20, 100px);
+    width: 100px;
+    height: 100px;
 }
 
 .double-circle::before {
   content: '';
   position: absolute;
   border-radius: 50%;
-  border: var(--line-width, 4px) solid transparent;
+  border:2px solid transparent;
   border-bottom-color: rgb(150, 162, 182)
   animation: circle-inner 4s infinite linear ;
 }
