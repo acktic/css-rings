@@ -63,7 +63,7 @@
     animation-direction: circle-outer;
 }
             </style>
-            <div class='loader double-circle>
+            <div class='loader double-circle'>
         </div>
     </foreignObject>
 </svg>
